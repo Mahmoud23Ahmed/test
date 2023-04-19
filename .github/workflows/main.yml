@@ -11,9 +11,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'Testing'
-        run: pwd
+      - name: 'printing folder contets before'
+        run: ls
 
-      - name: 'print Mahmoud'
+      - uses: action/checkout@v3
         run: echo Mahmoud  
+
+      - name: 'printing folder contets after'
+        run: ls  
 
