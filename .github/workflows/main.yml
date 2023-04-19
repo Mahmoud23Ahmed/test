@@ -15,7 +15,7 @@ jobs:
         run: ls
 
       - uses: action/checkout@v3
-        run: echo Mahmoud  
+       
 
       - name: 'printing folder contets after'
         run: ls  
